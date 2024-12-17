@@ -9,11 +9,14 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <!-- <link href="img/favicon.ico" rel="icon"> -->
+    <link href="img/favicon.svg" rel="icon">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -28,11 +31,70 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        --------------------------------------------------------------*/ .heross {
+            width: 100%;
+            min-height: 70vh;
+            position: relative;
+            padding: 120px 0 60px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .heross h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+        }
+
+        .heross p {
+            color: color-mix(in srgb, var(#993F3F), transparent 30%);
+            margin: 10px 0;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .heross ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .heross ul li {
+            display: flex;
+            align-items: center;
+            padding-bottom: 6px;
+        }
+
+        .heross ul i {
+            color: #993F3F;
+            font-size: 18px;
+            margin-right: 6px;
+        }
+
+
+
+        @media (max-width: 640px) {
+            .heross h1 {
+                font-size: 28px;
+                line-height: 36px;
+            }
+
+            .heross p {
+                font-size: 18px;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }
+
+
+        }
+    </style>
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
@@ -57,9 +119,10 @@
         <nav class="navbar navbar-expand-lg navbar-white py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
                 <!-- <h1 class="fw-bold text-primary m-0">Chari<span class="text-white">Team</span></h1> -->
-                 <img src="img/logo.png" style="width: 15rem;">
+                <img src="img/logo.png" style="width: 15rem;">
             </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -77,7 +140,7 @@
                             <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
                         </div>
                     </div>
-                 
+
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                 </div>
@@ -117,8 +180,10 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/cause/library/Library_abdurrehman.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/cause/skills/it2.jpeg" alt="" style="width: 200px; height: 200px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5"
+                            src="img/cause/library/Library_abdurrehman.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/cause/skills/it2.jpeg"
+                            alt="" style="width: 200px; height: 200px;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -126,11 +191,16 @@
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
                         <h1 class="display-6 mb-5">We Help People In Need Around The World</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                            <p class="text-dark mb-2">Empowering Students Through Education and Comprehensive Support Services.</p>
+                            <p class="text-dark mb-2">Empowering Students Through Education and Comprehensive Support
+                                Services.</p>
                             <span class="text-primary">Abdur Rehman Khan, Founder</span>
                         </div>
-                        <p class="mb-5">Mission Awareness Foundation (MAF), established in 2020, is a non-profit organization led by socially responsible individuals. MAF supports marginalized communities through programs that combat child labor and promote education, women’s empowerment, youth development, and overall community progress.</p>
-                       
+                        <p class="mb-5">The MAF is a pioneering organization dedicated to revolutionizing the
+                            educational and medical landscapes. Guided by the principles of selflessness and
+                            inclusivity, MAF envisions a transformative impact on society through innovative methods and
+                            collaborative efforts.
+                        </p>
+
                         <a class="btn btn-outline-primary py-2 px-3" href="contact.html">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -145,62 +215,202 @@
     <!-- About End -->
 
 
-  
+    <!-- Heross Section -->
+    <section id="hero" class="heross section" style="padding-top: 50px;">
 
-
-   <!-- Footer Start -->
-   <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <a href="index.html">
-                    <img src="img/logo.png" style="width: 15rem;"></a>
-
-                <p>Join us to save more lives, offering hope and care with our helping hands together.</p>
-               
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Address</h5>
-                <a class="btn btn-link" href="">Kurla west, Mumbai, Maharashtra</a>
-                <a class="btn" href="tel:+91 9136938616" style="padding-left: 0;"><p><i class="fa fa-phone-alt me-3"></i>+91 9136938616</p></a>
-                
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Quick Links</h5>
-                <a class="btn btn-link" href="about.html">About</a>
-                <a class="btn btn-link" href="index.html#what-we-do">Our Work</a>
-                <a class="btn btn-link" href="contact.html">Contact</a>
-                <a class="btn btn-link" href="gallery.html">Gallery</a>
-                <a class="btn btn-link" href="future_doctor.html">Our Future Doctors</a>
-             
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Social Media</h5>
-                <p>Follow us on ...</p>
-                <div class="d-flex pt-2">
-                    <a class="btn btn-square me-1" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=missionawareness21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                    <a class="btn btn-square me-1" href="https://www.facebook.com/missionawarenessfoundation/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square me-1" href="" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square me-0" href="https://www.instagram.com/mission_awareness?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid copyright">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="#">Mission Awareness Foundation</a>, All Right Reserved.
+            <div class="row gy-2 align-items-start">
+
+                <div class="col-lg-6   d-flex flex-column justify-content-center order-lg-last">
+                    <p>In addition to its vital work in combating school dropouts, MAF is actively involved in a wide
+                        array of activities aimed at fostering holistic community development. These encompass
+                        employment programs for youth and women, the protection and advocacy of citizens' rights,
+                        healthcare initiatives MAF firmly believes in the power of education as a catalyst for change,
+                        and as such, they work diligently to ensure that education reaches the most underserved segments
+                        of society.
+                    </p>
+                    <a class="btn btn-outline-primary py-2 px-3" href="contact.html">
+                        Contact Us
+                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </a>
+
                 </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a href="https://htmlcodex.com">Pyzon IT Solutions Pvt Ltd.</a>
+                <div class="col-lg-6 ">
+                    <p>
+                        The Mission Awareness Foundation (MAF) is a non-profit societal organization with a noble
+                        mission at its core. MAF is a Secular Trust registered in 2020 with the Charity Commissioner of
+                        Mumbai. Founded in the year 2020 by a dedicated group of well-educated and socially responsible
+                        individuals, MAF is committed to making a positive impact on society. The organization
+                        passionately pursues a range of development programs aimed at uplifting communities that have
+                        been socially, economically, and educationally marginalized. <br><br>
+
+                        MAF's tireless efforts extend to various areas of social concern, with a primary focus on
+                        eradicating school dropouts, through a combination of awareness campaigns, Scholarships and
+                        practical initiatives, MAF strives to create an environment where every child has the
+                        opportunity to pursue their dreams and reach their full potential.
+                        
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section><!-- /Hero Section -->
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+
+                <h1 class="display-6 mb-5">REGISTERED UNDER:</h1>
+
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <!-- <img class="img-fluid mb-4" src="img/cause/counselling/1.png" alt="" style="width: 20%;"> -->
+                        <!-- <h4 class="mb-3">Purpose of the project</h4> -->
+                        <p class="mb-4" style="color: black; font-weight: 700;">The Societies Registration Act, 1860.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <!-- <img class="img-fluid mb-4" src="img/cause/counselling/2.png" style="width: 20%;"> -->
+                        <!-- <h4 class="mb-3">Project Details</h4> -->
+                        <p class="mb-4" style="color: black; font-weight: 700;"> The Bombay Public Trust Act, 1950.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <!-- <img class="img-fluid mb-4" src="img/cause/counselling/3.png" style="width: 20%;"> -->
+                        <!-- <h4 class="mb-3">How you can help</h4> -->
+                        <p class="mb-4" style="color: black; font-weight: 700;">Section 80-G of the Income Tax, 1961.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Heross Section -->
+    <section id="hero" class="heross section" style="padding-top: 50px;">
+
+        <div class="container">
+            <div class="text-center mx-auto mb-1 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px; ">
+                <!-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Let's Discuss</div> -->
+                <h1 class="display-6 mb-1">AIMS & OBEJECTIVES
+                </h1>
+
+            </div>
+            <p class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">To promote education amongst the
+                weaker section of society primarily and others generally. The promotion of education shall include the
+                promotion of Science and Literature.To work for the social upliftment of the backward sections of
+                society.To bring about a better understanding and appreciation of universal cultural values.
+
+            </p>
+            <div class="row gy-2">
+
+                <div class="col-lg-6   d-flex flex-column justify-content-center">
+                    <h3>Mission</h3>
+
+
+                    <ul>
+                        <li><i class="bi bi-check2"></i>To improve the quality of life for marginalized sectors of
+                            society.</li>
+                        <li><i class="bi bi-check2"></i>Our mission is to inspire individuals, groups, and institutions
+                            to recognize their humanitarian responsibilities.</li>
+                        <li><i class="bi bi-check2"></i>We provide a platform for them to contribute their resources and
+                            thrive in an ever-evolving society. </li>
+                    </ul>
+                    <h3>Vision:</h3>
+                    <ul>
+                        <li><i class="bi bi-check2"></i>The vision of MAF is to become a catalyst for the progression,
+                            enhancement.</li>
+                        <li><i class="bi bi-check2"></i>Enrichment of society through awareness in the fields of
+                            education, health, sports, and skill development programs.
+                        </li>
+
+                    </ul>
+
+                    <!-- <div class="d-flex">
+            <a href="#about" class="btn-get-started">Get Started</a>
+          </div> -->
+                </div>
+                <div class="col-lg-6 order-lg-last">
+                    <img src="img/cause/mock/Customer Survey-rafiki.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- /Hero Section -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <a href="index.html">
+                        <img src="img/logo.png" style="width: 15rem;"></a>
+
+                    <p>Join us to save more lives, offering hope and care with our helping hands together.</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <a class="btn btn-link" href="">Kurla west, Mumbai, Maharashtra</a>
+                    <a class="btn" href="tel:+91 9136938616" style="padding-left: 0;">
+                        <p><i class="fa fa-phone-alt me-3"></i>+91 9136938616</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About</a>
+                    <a class="btn btn-link" href="index.html#what-we-do">Our Work</a>
+                    <a class="btn btn-link" href="contact.html">Contact</a>
+                    <a class="btn btn-link" href="gallery.html">Gallery</a>
+                    <a class="btn btn-link" href="future_doctor.html">Our Future Doctors</a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Social Media</h5>
+                    <p>Follow us on ...</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square me-1"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=missionawareness21@gmail.com"
+                            target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a class="btn btn-square me-1" href="https://www.facebook.com/missionawarenessfoundation/"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-0"
+                            href="https://www.instagram.com/mission_awareness?utm_medium=copy_link" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Mission Awareness Foundation</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">Pyzon IT Solutions Pvt Ltd.</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Footer End -->
+    <!-- Footer End -->
 
 
 
