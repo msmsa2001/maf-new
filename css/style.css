@@ -222,6 +222,10 @@
     background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/awareness/independence/iday1.jpeg) center center no-repeat;
     background-size: cover;
 }
+#Future{
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/futur_doctor/hero.jpg) center center no-repeat;
+    background-size: cover;
+}
 
 
 /*--------------------------------------------------------------
@@ -852,4 +856,149 @@
         height: 100%;
     }
 }
+  /* Future_doctor  */
+  .Futur_doctor .team-member {
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.Futur_doctor .team-member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.Futur_doctor .team-member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+.Futur_doctor .team-member .social a {
+    background: rgba(255, 255, 255, 0.25); 
+    color: rgba(0, 0, 0, 0.8); 
+    margin: 0 3px;
+    border-radius: 4px;
+    width: 90%;
+    height: 36px;
+    transition: ease-in-out 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: auto;
+}
+
+
+.Futur_doctor .team-member .member-info {
+    padding: 25px 15px;
+}
+
+.Futur_doctor .team-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+.Futur_doctor .team-member .member-info h4 span{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.Futur_doctor .team-member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6); /* Replace with your desired color */
+}
+.col-5-custom {
+    flex: 0 0 20%;
+    max-width: 20%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .col-5-custom {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 992px) {
+    .col-5-custom {
+        flex: 0 0 25%;
+        max-width: 33.33%;
+        justify-content: center;
+       align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-5-custom {
+        flex: 0 0 50%;
+        max-width: 42%;
+        justify-content: center;
+       align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-5-custom {
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center !important;
+        align-items: center;
+    }
+}
+  /*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+.year .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .year .portfolio-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+
+  }
+  
+  .year .portfolio-filters li:hover,
+  .year .portfolio-filters li.filter-active {
+    color:var(--light);
+    background-color: var(--primary);
+  }
+  
+  .year .portfolio-filters li:first-child {
+    margin-left: 0;
+  }
+  
+  .year .portfolio-filters li:last-child {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 575px) {
+    .year .portfolio-filters li {
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+  }
+  
+ 
   
